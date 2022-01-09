@@ -9,74 +9,54 @@
 </head>
 
 <body>
-  <!-- Nav-Bar Start -->
-  <div class="w3-bar nav-color" style="font-size: 14px; font-weight: 600">
-    <img class="w3-bar-item w3-round" src="assets/images/logo.png" alt="" style="width: 5%;padding: 0px;margin: 0px;" />
-    <a href="#" class="w3-bar-item w3-button"><i class="fas fa-home"></i> DASHBOARD</a>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">
-        <i class="fas fa-database"></i> MASTER DATA
-      </button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">System Setting</a>
-        <a href="#" class="w3-bar-item w3-button">Role</a>
-        <a href="#" class="w3-bar-item w3-button">Company</a>
-        <a href="#" class="w3-bar-item w3-button">Country</a>
-        <a href="#" class="w3-bar-item w3-button">State</a>
-        <a href="#" class="w3-bar-item w3-button">Cluster</a>
-        <a href="#" class="w3-bar-item w3-button">City</a>
-        <a href="#" class="w3-bar-item w3-button">Scheduler</a>
-        <a href="#" class="w3-bar-item w3-button">Content Permission</a>
-        <a href="#" class="w3-bar-item w3-button">Calibration Master</a>
-        <a href="#" class="w3-bar-item w3-button">Report Content</a>
+     <!-- Nav-Bar Start -->
+     <div class="w3-bar nav-color" style="font-size: 14px; font-weight: 600">
+      <img
+        class="w3-bar-item w3-round"
+        src="assets/images/logo.png"
+        alt=""
+        style="width: 5%;padding: 0px;margin: 0px;"
+      />
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fas fa-home"></i> DASHBOARD</a
+      >
+      <div class="w3-dropdown-hover">
+        <button class="w3-button"><i class="fas fa-bell"></i> ALARM</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Company Alarm</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">
+          <i class="fas fa-suitcase-rolling"></i> MAINTENANCE
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Product</a>
+          <a href="#" class="w3-bar-item w3-button">Site Engineer</a>
+          <a href="#" class="w3-bar-item w3-button">BM Activity</a>
+          <a href="#" class="w3-bar-item w3-button">PM Activity</a>
+          <a href="#" class="w3-bar-item w3-button">Spare</a>
+          <a href="#" class="w3-bar-item w3-button">PM SChedule</a>
+          <a href="#" class="w3-bar-item w3-button">BM maintainance</a>
+          <a href="#" class="w3-bar-item w3-button">PM Done Form</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fas fa-newspaper"></i> REPORTS</a
+      >
+      <div class="w3-dropdown-hover w3-right w3-margin-right">
+        <button class="w3-button">
+          <i class="fas fa-user-shield"></i> USER
+        </button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="#" class="w3-bar-item w3-button">Super User</a>
+          <a href="#" class="w3-bar-item w3-button">Change Password</a>
+          <a href="#" class="w3-bar-item w3-button">Logout</a>
+        </div>
       </div>
     </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">
-        <i class="fas fa-user-shield"></i> ADMIN
-      </button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">User</a>
-        <a href="#" class="w3-bar-item w3-button">Site</a>
-        <a href="#" class="w3-bar-item w3-button">User Assigned Sites</a>
-      </div>
-    </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button"><i class="fas fa-bell"></i> ALARM</button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Alarm Master</a>
-        <a href="#" class="w3-bar-item w3-button">Company Alarm</a>
-      </div>
-    </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">
-        <i class="fas fa-suitcase-rolling"></i> MAINTENANCE
-      </button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Product</a>
-        <a href="#" class="w3-bar-item w3-button">Site Engineer</a>
-        <a href="#" class="w3-bar-item w3-button">BM Activity</a>
-        <a href="#" class="w3-bar-item w3-button">PM Activity</a>
-        <a href="#" class="w3-bar-item w3-button">Spare</a>
-        <a href="#" class="w3-bar-item w3-button">PM SChedule</a>
-        <a href="#" class="w3-bar-item w3-button">BM maintainance</a>
-        <a href="#" class="w3-bar-item w3-button">PM Done Form</a>
-      </div>
-    </div>
-    <a href="#" class="w3-bar-item w3-button"><i class="fas fa-newspaper"></i> REPORTS</a>
-    <div class="w3-dropdown-hover w3-right w3-margin-right">
-      <button class="w3-button">
-        <i class="fas fa-user-shield"></i> USER
-      </button>
-      <div class="w3-dropdown-content w3-bar-block">
-        <a href="#" class="w3-bar-item w3-button">Super User</a>
-        <a href="#" class="w3-bar-item w3-button">Change Password</a>
-        <a href="#" class="w3-bar-item w3-button">Logout</a>
-      </div>
-    </div>
-  </div>
-  <!-- Nav Bar End -->
-
+    <!-- Nav Bar End -->
+    
   <!-- Dashboard Start -->
   <!-- Dashboard header start -->
   <div class="dashboard-main">
