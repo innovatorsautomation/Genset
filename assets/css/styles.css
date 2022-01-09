@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: rgb(218, 237, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 10px 20px;
+}
+.w3-bar{
+    padding: 5px;
+}
+.w3-margin-right{
+    padding-right: 40px;
+}
+.dashboard-main{
+    margin: 20px;
+    border: brown solid;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.w3-select{
+    border: 1px lightgray solid;
+    padding: 10px;
+}
+.w3-table-all{
+    margin: 10px;
+}
+.indicator-button-green{
+    width: 30%;
+}
+.indicator-button-red{
+    width: 30%;
+}
+#th-1{
+    width: 5%;
+}
+#th-2{
+    width: 15%;
+}
+#th-3{
+    width: 10%;
+}
+#th-4, #th-5,#th-6,#th-7,#th-8 {
+    width: 5%;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
+
+/* site.html */
+hr{
+    margin: 10px;
+}
+.site-name{
+    margin: 5%;
+    font-weight: bold;
+}
+.nav-color{
+    background-color: #00bfff;
+    color: aliceblue;
+}

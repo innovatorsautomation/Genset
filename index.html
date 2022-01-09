@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Genset</title>
+    <script
+      src="https://kit.fontawesome.com/7bf1e6e344.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Nav-Bar Start -->
+    <div class="w3-bar nav-color" style="font-size: 14px; font-weight: 600">
+      <img
+        class="w3-bar-item w3-button w3-round"
+        src="assets/images/logo.png"
+        alt=""
+        style="width: 4%"
+      />
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fas fa-home"></i> DASHBOARD</a
+      >
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">
+          <i class="fas fa-database"></i> MASTER DATA
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">System Setting</a>
+          <a href="#" class="w3-bar-item w3-button">Role</a>
+          <a href="#" class="w3-bar-item w3-button">Company</a>
+          <a href="#" class="w3-bar-item w3-button">Country</a>
+          <a href="#" class="w3-bar-item w3-button">State</a>
+          <a href="#" class="w3-bar-item w3-button">Cluster</a>
+          <a href="#" class="w3-bar-item w3-button">City</a>
+          <a href="#" class="w3-bar-item w3-button">Scheduler</a>
+          <a href="#" class="w3-bar-item w3-button">Content Permission</a>
+          <a href="#" class="w3-bar-item w3-button">Calibration Master</a>
+          <a href="#" class="w3-bar-item w3-button">Report Content</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">
+          <i class="fas fa-user-shield"></i> ADMIN
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">User</a>
+          <a href="#" class="w3-bar-item w3-button">Site</a>
+          <a href="#" class="w3-bar-item w3-button">User Assigned Sites</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button"><i class="fas fa-bell"></i> ALARM</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Alarm Master</a>
+          <a href="#" class="w3-bar-item w3-button">Company Alarm</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">
+          <i class="fas fa-suitcase-rolling"></i> MAINTENANCE
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">Product</a>
+          <a href="#" class="w3-bar-item w3-button">Site Engineer</a>
+          <a href="#" class="w3-bar-item w3-button">BM Activity</a>
+          <a href="#" class="w3-bar-item w3-button">PM Activity</a>
+          <a href="#" class="w3-bar-item w3-button">Spare</a>
+          <a href="#" class="w3-bar-item w3-button">PM SChedule</a>
+          <a href="#" class="w3-bar-item w3-button">BM maintainance</a>
+          <a href="#" class="w3-bar-item w3-button">PM Done Form</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fas fa-newspaper"></i> REPORTS</a
+      >
+      <div class="w3-dropdown-hover w3-right w3-margin-right">
+        <button class="w3-button">
+          <i class="fas fa-user-shield"></i> USER
+        </button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="#" class="w3-bar-item w3-button">Super User</a>
+          <a href="#" class="w3-bar-item w3-button">Change Password</a>
+          <a href="#" class="w3-bar-item w3-button">Logout</a>
+        </div>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Dashboard Start -->
+    <!-- Dashboard header start -->
+    <div class="dashboard-main">
+      <div class="w3-bar nav-color" style="font-size: 12px; font-weight: 600">
+        <p class="w3-sans-serif w3-large">Dashboard</p>
+      </div>
+      <div>
+        <select
+          class="w3-select w3-sand"
+          name="option"
+          style="width: max-content; margin: 30px"
+        >
+          <option value="" disabled selected>--Select Company--</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <select
+          class="w3-select w3-sand"
+          name="option"
+          style="width: max-content; margin: 30px"
+        >
+          <option value="" disabled selected>--Select State--</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <select
+          class="w3-select w3-sand"
+          name="option"
+          style="width: max-content; margin: 30px"
+        >
+          <option value="" disabled selected>--Select Cluster--</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <select
+          class="w3-select w3-sand"
+          name="option"
+          style="width: max-content; margin: 30px"
+        >
+          <option value="" disabled selected>--Select City--</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <select
+          class="w3-select w3-sand"
+          name="option"
+          style="width: max-content; margin: 30px"
+        >
+          <option value="" disabled selected>--Select Site--</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+      </div>
+      <!-- Dashboard Header end -->
+      <div class="w3-container w3-responsive">
+        <table class="w3-table-all w3-hoverable w3-small w3-centered">
+          <tr class="w3-sand">
+            <th id="th-1">#</th>
+            <th id="th-2">SITE NAME (<span class="w3-text-blue"> ALL</span> /<span class="w3-text-green"> LIVE</span> /<span class="w3-text-red"> DOWN</span> )</th>
+            <th id="th-3">RECEIVED DATE</th>
+            <th id="th-4">DG</th>
+            <th id="th-5">MAINS</th>
+            <th id="th-6">LOW FUEL</th>
+            <th id="th-7">DG BATTERY</th>
+            <th id="th-8">MANUAL/ AUTO</th>
+          </tr>
+          <tr>
+            <td id="th-1">1</td>
+            <td id="th-2"><a href="site-1.html" class="w3-text-green">Site-1</a></td>
+            <td id="th-3">09:38:00 24-12-2021</td>
+            <td id="th-4">
+              <img
+                class="indicator-button-green"
+                src="assets/images/green-indicator.png"
+              />
+            </td>
+            <td id="th-5">
+              <img
+                class="indicator-button-red"
+                src="assets/images/red-indicator.png"
+              />
+            </td>
+            <td id="th-6">
+              <img
+                class="indicator-button-green"
+                src="assets/images/green-indicator.png"
+              />
+            </td>
+            <td id="th-7">
+              <img
+                class="indicator-button-red"
+                src="assets/images/red-indicator.png"
+              />
+            </td>
+            <td id="th-8">
+              <img
+                class="indicator-button-green"
+                src="assets/images/green-indicator.png"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td id="th-1">2</td>
+            <td id="th-2"><a href="#">Site-2</a></td>
+            <td id="th-3">09:38:00 24-12-2021</td>
+            <td id="th-4">
+              <img
+                class="indicator-button-green"
+                src="assets/images/green-indicator.png"
+              />
+            </td>
+            <td id="th-5">
+              <img
+                class="indicator-button-red"
+                src="assets/images/red-indicator.png"
+              />
+            </td>
+            <td id="th-6">
+              <img
+                class="indicator-button-green"
+                src="assets/images/green-indicator.png"
+              />
+            </td>
+            <td id="th-7">
+              <img
+                class="indicator-button-red"
+                src="assets/images/red-indicator.png"
+              />
+            </td>
+            <td id="th-8">
+              <img
+                class="indicator-button-green"
+                src="assets/images/green-indicator.png"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Dashboard end -->
+
+    <!-- footer start -->
+    <div class="w3-bar nav-color footer">
+      <p  class="w3-left">All copyright @IA</p>
+      <p  class="w3-right">Innovator's Automation Labs.</p>
+    </div>
+    <!-- footerend -->
+  </body>
+</html>
