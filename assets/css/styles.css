@@ -2,6 +2,7 @@ body{
     margin: 0px;
     background-color: rgb(218, 237, 245);
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom:50px;
 }
 p{
     margin: 10px 20px;
@@ -14,7 +15,7 @@ p{
 }
 .dashboard-main{
     margin: 20px;
-    border: brown solid;
+    border: grey solid;
     border-width: 1px;
     background-color: rgb(255, 255, 255);
 }
@@ -22,14 +23,20 @@ p{
     border: 1px lightgray solid;
     padding: 10px;
 }
+table, th, td, tr{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    font-weight: bold;
+    width:10%;
+  }
 .w3-table-all{
-    margin: 10px;
+    margin: 0px;
 }
 .indicator-button-green{
-    width: 30%;
+    width: 30px;
 }
 .indicator-button-red{
-    width: 30%;
+    width: 30px;
 }
 #th-1{
     width: 5%;
